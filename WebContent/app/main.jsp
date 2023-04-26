@@ -37,8 +37,8 @@
 					<div class="main-header-rank">
 						<div class="tropy-img">
 							<img
-								src="${pageContext.request.contextPath}/assets/img/main/trophy.PNG"
-								alt="" style="max-width: 100%; max-height: 100%;">
+								src="${pageContext.request.contextPath}/assets/img/main/icons.gif"
+								alt="" style="margin-top: 7px; width:50px ;height:41px;">
 						</div>
 						<c:forEach var="rank" begin="0" end="8" step="1" items="${rankTotal}" varStatus="status">
 							<c:choose>
@@ -280,7 +280,7 @@
 
 									</a>
 									<div class="text-box">
-										<a href="${pageContext.request.contextPath}/user/youPage.us?userNumber=${info.userNumber}" class="text-nick">${post.getUserNickName()}</a><br>
+										<a href="${pageContext.request.contextPath}/user/youPage.us?userNumber=${post.getUserNumber()}" class="text-nick">${post.getUserNickName()}</a><br>
 										<a href="${pageContext.request.contextPath}/post/postReadOk.po?postNumber=${post.getPostNumber()}" class="text-title">${post.getPostTitle()}</a>
 									</div>
 								</div>
@@ -469,8 +469,8 @@
 							<div class="search-box3">
 								<!-- 사이드바 드롭다운 추가 -->
 								<select class="drop-down" id="drop-down" name="fruits">
-									<option value="user">회원</option>
-									<option value="post">게시물</option>
+									<option value="user" class="drop-down-option">회원</option>
+									<option value="post" class="drop-down-option">게시물</option>
 								</select> <input type="text" class="find-btn" id="find-btn" name="searchInput" placeholder="검색" />
 								<button type="button" class="search-btn">검색</button>
 								<!-- 사이드바 드롭다운 추가 -->

@@ -335,7 +335,7 @@
 
 															<!-- 재료 추가버튼 -->
 															<div class="element-edit-buttons">
-																<button type="button" class="element-plus">
+																<button type="button" class="element-plus" >
 																	<i class="fa-solid fa-circle-plus"></i>
 																</button>
 

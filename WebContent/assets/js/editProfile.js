@@ -260,7 +260,31 @@ $('.cancel-btn').on('click', function(){
    history.back();
 });
 
+// enter key -> find user & post
+$('.find-btn').on('keyup', function(event) {
+	let searchCate = $('.drop-down').val();
 
+	if (event.which === 13) {
+		if (searchCate == 'user') {
+			$.ajax({
+				url: '/mainAjaxOk.m',
+				type: 'get',
+				data: { input: $('.find-btn').val().trim() },
+				dataType: 'json',
+				success: function(result) {
+					console.log(result);
+					addUserInfo(result);
+					//$('.find-btn').val('');
+				},
+				error: function(a, b, c) {
+					console.log(c);
+				}
+			});
+		} else {
+			findPost($('.find-btn').val().trim());
+		}
+	}
+});
 
 
 

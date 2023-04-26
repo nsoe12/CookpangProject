@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 html, body {
 	overflow-x: hidden;
 }
@@ -7,6 +15,9 @@ html, body {
 * {
 	margin: 0;
 	padding: 0;
+	font-family: 'NanumSquareNeo-Variable';
+    font-weight: normal;
+    font-style: normal;
 }
 
 .write-box-globar-wrap {
@@ -20,10 +31,10 @@ html, body {
 }
 
 .wirte-box-wrap {
-	width: 1200px;
-	height: 640px;
-	border: 23px solid white;
-	border-radius: 20px;
+	width: 1147px;
+	height: 678px;
+	border: 16px solid white;
+	border-radius: 17px;
 	background-color: white;
 	display: flex;
 	flex-direction: column;
@@ -42,6 +53,8 @@ html, body {
 	/* padding-right: 300px; */
 	width: 10%;
 	height: 100%;
+	cursor: unset;
+	
 }
 
 .fa-arrow-left {
@@ -67,11 +80,12 @@ html, body {
 
 .share-button {
 	background-color: white;
-	color: rgba(88, 88, 88, 0.789);
+	color: rgb(56 56 56 / 76%);
 	border-style: none;
 	font-weight: bolder;
 	font-size: 20px;
 	cursor: pointer;
+	margin-right: 10px;
 }
 
 .write-box-content {
@@ -137,16 +151,16 @@ html, body {
 }
 
 .wirte-box-main-user-info {
-	width: 100%;
-	height: 8%;
+	/* width: 100%;
+	height: 8%; */
 	display: flex;
-	padding: 8px;
+	padding: 9px;
 	/* border-bottom: 1px solid rgba(120, 119, 119, 0.674); */
 }
 
 .write-box-user-profile-img {
-	height: 50px;
-	width: 50px;
+	height: 35px;
+	width: 35px;
 }
 
 .write-box-user-profile-img .profile-img {
@@ -160,7 +174,7 @@ html, body {
 	width: 86.48%;
 	display: flex;
 	align-items: center;
-	padding-left: 20px;
+	padding-left: 14px;
 }
 
 /* 레시피에 필요한 재료, 체크박스 */
@@ -174,21 +188,23 @@ html, body {
 }
 
 .write-box-main-content input {
-	background-color: #fffbf6;
-	border: 1px solid #aeaeae;
-	border-radius: 5px;
-	margin: 3px 0;
-	width: auto;
+    width: auto;
+    font-size: 13px;
+    background-color: white;
+    border: 1px solid #a2a2a2a8;
+    border-radius: 6px;
+    margin: 5px 0;
 }
 
 .content-wrap {
-	margin: 15px 5px 15px 0px;
+	margin: -11px 5px 14px -3px;
+	font-size:15px;
 }
 
 .content-title {
 	/* width: 100px; */
-	height: 30px;
-	padding-left: 10px;
+	height: 24px;
+	padding-left: 19px;
 }
 
 .category {
@@ -197,22 +213,23 @@ html, body {
 }
 
 .category-list {
-	color: rgba(11, 11, 11, 0.674);
+	color: rgb(145 88 40 / 79%);
 	background-color: white;
-	border: 2px solid rgba(120, 119, 119, 0.674);
-	border-radius: 15px;
+	border: 0.2px solid #acacac66;
+	border-radius: 9px;
 	text-align: center;
-	font-weight: bolder;
-	margin-right: 10px;
-	padding: 5px;
+	/* font-weight: bolder; */
+	margin-right: 7px;
+	padding: 4px;
 	cursor: pointer;
-	font-weight: bold;
+	font-weight: 500;
+	font-size: 14px;
 }
 
 .categories-wrap {
 	display: flex;
 	width: 100%;
-	margin: 7px 0;
+	margin: 4px 0;
 }
 
 ul {
@@ -269,6 +286,7 @@ button {
 	cursor: pointer;
 	padding: 0;
 	outline: none;
+	margin-right: -8px;
 }
 
 .img-prev-next-button {
@@ -321,8 +339,8 @@ button {
 /* 내용 스타일 */
 textarea {
 	resize: none;
-	height: 136px;
-	width: 94%;
+	height: 100px;
+	width: 382px;
 	font-size: 12px;
 	font-weight: bold;
 	cursor: pointer;
@@ -360,28 +378,32 @@ textarea {
 .ingredient-wrap .ingredient-name, .ingredient-wrap .ingredient-quantity
 	{
 	padding: 5px;
-	width: 150px;
-	font-size: 16px;
+    width: 150px;
+    font-size: 13px;
+    background-color: white;
+    border: 1px solid #a2a2a2a8;
+    border-radius: 6px;
+    margin: 10px 0px;
 }
 
 .ingredient-wrap #select {
-	padding: 5px;
-	width: 150px;
-	font-size: 16px;
-	background-color: #fffbf6;
-	border: 1px solid #aeaeae;
-	border-radius: 5px;
-	margin: 3px 0;
+	    padding: 5px;
+    width: 108px;
+    font-size: 13px;
+    background-color: white;
+    border: 1px solid #a2a2a2a8;
+    border-radius: 6px;
+    margin: 5px 0;
 }
 
 .select-ingredient {
 	padding: 5px;
-	width: 150px;
-	font-size: 16px;
-	background-color: #fffbf6;
-	border: 1px solid #aeaeae;
-	border-radius: 5px;
-	margin: 3px 0;
+	width: 160px;
+	font-size: 13px;
+	
+	border: 1px solid #a2a2a2a8;
+	border-radius: 9px;
+	margin: 9px 0;
 }
 
 .ingredient-quantity-li {
@@ -396,7 +418,7 @@ textarea {
 }
 
 .element-minus {
-	margin: 0px 5px;
+	margin: 0px -70px;
 }
 
 .item-edit-buttons {
@@ -405,7 +427,7 @@ textarea {
 }
 
 .item-plus {
-	margin: 0px 5px;
+	margin-left:44px;
 }
 
 .ingredient-guide-msg {
@@ -413,5 +435,23 @@ textarea {
 }
 
 .msg1 {
-	margin-left: 335px;
+	margin: 17px 121px;
+}
+
+/*css 추가 */
+.fa-solid {
+	margin-right: 85px
+}
+
+.fa-regular{
+	color : #eb8828b8;
+}
+
+.file-input-msg{
+	color : #eb8828b8;
+}
+
+.category-list:hover{
+	background-color: rgb(255 143 0/ 87%);
+	color: white;
 }

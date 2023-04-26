@@ -8,17 +8,23 @@ $(document).ready(function() {
 		if ($(this).is(':checked')) {
 			$(this)
 				.closest('.category-list')
-				.css('background-color', 'rgba(120, 119, 119, 0.9)');
+				.css('background-color', 'rgb(255 143 0 / 57%)');
 			$(this)
 				.closest('.category-list')
 				.css('color', 'white');
+				$(this)
+				.closest('.category-list')
+				.css('border', '0.2px solid white');
 		} else {
 			$(this)
 				.closest('.category-list')
 				.css('background-color', 'transparent');
 			$(this)
 				.closest('.category-list')
-				.css('color', 'rgb(62, 62, 62)');
+				.css('color', 'rgba(145, 88, 40, 0.79)');
+				$(this)
+				.closest('.category-list')
+				.css('border', '0.2px solid #acacac66');
 		}
 	});
 });
@@ -314,6 +320,6 @@ $(document).on('change', '#select', function() {
 
 //-------뒤로가기-------//
 
-$('.cancel-btn').on('click', function(){
+$('.cancel-btn i').on('click', function(){
    history.back();
 });
