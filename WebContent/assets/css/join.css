@@ -1,7 +1,15 @@
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'NanumSquareNeo-Variable';
 }
 
 body{
@@ -67,12 +75,12 @@ form h2 {
   border-bottom: 2px solid rgb(255, 87, 87);
 }
 
-.form-group label {
+/* .form-group label {
   display: block;
   font-size: 17px;
   font-weight: 600;
   margin-bottom: 5px;
-}
+} */
 
 .form-group input[type='radio'] {
   display: inline-block;
@@ -145,6 +153,8 @@ input[type='radio'] {
 
 h1{
   margin-bottom: 1.2rem;
+  font-family: 'Josefin Slab', serif;
+  font-style:italic;
 }
 
 .agree-wrap{

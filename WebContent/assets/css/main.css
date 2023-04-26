@@ -17,6 +17,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+     font-family: 'locus_sangsang';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/locus_sangsang.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
 
 a {
 	color: black;
@@ -176,7 +182,7 @@ a {
 
 .text-title {
 	font-size: 18px;
-	font-weight: 550;
+	font-family: 'locus_sangsang';
 }
 
 .aaa {
@@ -184,11 +190,12 @@ a {
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
+	color: rgb(255 143 0);	
 }
 
 .bbb {
-	/* margin: 0 11px */
-	
+font-size: 14px;
+    color: rgb(255 143 0);	
 }
 
 .main-body-header {
@@ -519,6 +526,7 @@ footer>div {
 	font-size: 30px;
 	padding-left: 21px;
 	padding-top: 15px;
+	font-family: 'NanumSquareNeo-Variable';
 }
 
 .search-box {
@@ -532,7 +540,10 @@ footer>div {
 	height: 75px;
 	justify-content: space-around;
 	border-bottom: 1px solid rgb(217, 209, 209);
+    font-family: "GmarketSansMedium";
+    
 }
+
 
 .alarm {
 	/* background-color: beige; */
@@ -586,6 +597,7 @@ footer>div {
 	height: 55px;
 	display: flex;
 	align-items: center;
+	font-family: 'NanumSquareNeo-Variable';
 }
 
 .recent-searches2 {
@@ -597,6 +609,7 @@ footer>div {
 	width: 100%;
 	height: 660px;
 	overflow-y: scroll;
+	font-family: 'NanumSquareNeo-Variable';
 }
 
 .search-man {
@@ -769,6 +782,7 @@ transition: all 0.1s ease;
 	align-items: center;
 	justify-content: space-evenly;
 	border-bottom: 1px solid rgb(217, 209, 209);
+	font-family: "GmarketSansMedium";
 }
 
 .find-btn {

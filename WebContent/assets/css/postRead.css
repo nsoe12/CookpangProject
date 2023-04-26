@@ -1,10 +1,14 @@
 @charset "UTF-8";
-
+@font-face {
+     font-family: 'locus_sangsang';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/locus_sangsang.woff') format('woff');
+     font-weight: 500;
+     font-style: normal;
+}
 
 *{
   margin: 0;
   padding: 0;
-
 }
 
 .container{
@@ -109,6 +113,7 @@ a{
   width: 40%;
   display: flex;
   flex-direction: column;
+  
 }
 
 .writer-info-box{
@@ -198,7 +203,7 @@ a{
   padding-left: 10px;
   justify-content: center;
   font-size: 17px;
-  font-family: none;
+  font-family: 'locus_sangsang';
 }
 
 .ingredient-box{
