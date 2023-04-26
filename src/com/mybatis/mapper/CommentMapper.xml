@@ -5,7 +5,7 @@
 	
 	<select id="getCommentList" parameterType="_int" resultType="CommentVO">
 		select comment_number, comment_content, c.user_number, post_number, comment_time,
-	 		user_id ,up.user_profile_image_system_name 
+	 		user_id ,up.user_profile_image_system_name ,u.user_nickname
 		from  tbl_user u join tbl_comment c
 		on c.post_number = #{postNumber} and c.user_number = u.user_number
 		left join tbl_user_profile_image up
