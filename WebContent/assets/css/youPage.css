@@ -172,9 +172,10 @@ a {
 .post-cnt {
   /* background-color: snow; */
   height: 50px;
-  width: 85px;
+  width: 11-px;
   display: flex;
   align-items: center;
+ 
 }
 
 .follower-cnt {

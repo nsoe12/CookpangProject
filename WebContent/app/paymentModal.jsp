@@ -10,6 +10,7 @@
 <title>PaymentModal</title>
 <link rel="stylesheet"
 	href="${pageContext.request.contextPath}/assets/css/PaymentModal.css">
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-applesdgothicneo@1.0/all.min.css">
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
