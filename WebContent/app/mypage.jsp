@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,8 +14,7 @@
 <link
 	href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital@1&display=swap"
 	rel="stylesheet" />
-<script src="https://kit.fontawesome.com/9416f63361.js"
-	crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/9416f63361.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	<div id="body-main">
@@ -27,7 +25,7 @@
 					<div class="main-top">
 						<div class="profile-picture">
 							<c:choose>
-								<c:when test="${empty userProfileImageSystemName}">
+								<c:when test="${empty userInfo.getUserProfileImageSystemName()}">
 									<div id="img-box">
 										<img
 											src="https://www.thechooeok.com/common/img/default_profile.png"
