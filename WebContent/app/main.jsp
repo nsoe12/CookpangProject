@@ -469,8 +469,8 @@
 							<div class="search-box3">
 								<!-- 사이드바 드롭다운 추가 -->
 								<select class="drop-down" id="drop-down" name="fruits">
-									<option value="user">회원</option>
-									<option value="post">게시물</option>
+									<option value="user" class="drop-down-option">회원</option>
+									<option value="post" class="drop-down-option">게시물</option>
 								</select> <input type="text" class="find-btn" id="find-btn" name="searchInput" placeholder="검색" />
 								<button type="button" class="search-btn">검색</button>
 								<!-- 사이드바 드롭다운 추가 -->

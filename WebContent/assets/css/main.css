@@ -227,6 +227,11 @@ a {
 	height: 100px;
 	border-radius: 50%;
 }
+.rank-img img:hover{
+	width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
 
 .rank-round {
 	display: flex;
@@ -484,7 +489,7 @@ footer>div {
 	width: 530px;
 	height: 100%;
 	position: absolute;
-	top: 25px;
+	top: 0px;
 	left: -312px;
 	border-right: 1px solid #dbdbdb;
 	border-radius: 10px;
@@ -498,7 +503,7 @@ footer>div {
 	width: 530px;
 	height: 100%;
 	position: absolute;
-	top: 25px;
+	top: 0px;
 	left: -312px;
 	border-right: 1px solid #dbdbdb;
 	border-radius: 10px;
@@ -560,7 +565,7 @@ footer>div {
 .new-alarm {
 	width: 100%;
 	height: 390px;
-	border-bottom: 1px solid rgb(217, 209, 209);
+	/* border-bottom: 1px solid rgb(217, 209, 209); */
 	display: flex;
     align-items: center;
     justify-content: space-around;
@@ -595,7 +600,7 @@ footer>div {
 .recent-searches-box {
 	/* background-color: yellow; */
 	width: 100%;
-	height: 660px;
+	height: 497px;
 	overflow-y: scroll;
 }
 
@@ -759,6 +764,21 @@ transition: all 0.1s ease;
 	background-color: #ebedf0;
 	height: 50px;
 	border: none;
+}
+
+.drop-down option{
+	background-color: #ebedf0;
+	border: none;
+   font-family: inherit;
+   border-radius: 12px;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   text-align-last: center;
+   text-align: center;
+   -ms-text-align-last: center;
+   -moz-text-align-last: center;
+   font-size: 12px;
 }
 
 .search-box3 {
