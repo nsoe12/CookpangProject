@@ -280,7 +280,7 @@
 
 									</a>
 									<div class="text-box">
-										<a href="${pageContext.request.contextPath}/user/youPage.us?userNumber=${info.userNumber}" class="text-nick">${post.getUserNickName()}</a><br>
+										<a href="${pageContext.request.contextPath}/user/youPage.us?userNumber=${post.getUserNumber()}" class="text-nick">${post.getUserNickName()}</a><br>
 										<a href="${pageContext.request.contextPath}/post/postReadOk.po?postNumber=${post.getPostNumber()}" class="text-title">${post.getPostTitle()}</a>
 									</div>
 								</div>

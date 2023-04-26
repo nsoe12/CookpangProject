@@ -9,6 +9,7 @@ public class CommentVO {
     private int postNumber;
     private String commentTime;
     private String userId;
+    private String userNickname;
     private String userProfileImageSystemName;
     
     
@@ -75,6 +76,16 @@ public class CommentVO {
 	}
 
 
+	public String getUserNickname() {
+		return userNickname;
+	}
+
+
+	public void setUserNickname(String userNickname) {
+		this.userNickname = userNickname;
+	}
+
+
 	public String getUserProfileImageSystemName() {
 		return userProfileImageSystemName;
 	}
@@ -89,8 +100,9 @@ public class CommentVO {
 	public String toString() {
 		return "CommentVO [commentNumber=" + commentNumber + ", commentContent=" + commentContent + ", userNumber="
 				+ userNumber + ", postNumber=" + postNumber + ", commentTime=" + commentTime + ", userId=" + userId
-				+ ", userProfileImageSystemName=" + userProfileImageSystemName + "]";
+				+ ", userNickname=" + userNickname + ", userProfileImageSystemName=" + userProfileImageSystemName + "]";
 	}
+
 
 	
 }
