@@ -95,7 +95,7 @@
 		up.user_profile_image_system_name, u.user_number, u.user_id,
 		p.post_title,
 		p.post_content, p.post_recipe_content, count(pl.post_number) as post_like_count,
-		p.post_view_count, p.post_date
+		p.post_view_count, p.post_date,u.user_nickname 
 		from tbl_user u
 		join tbl_post p
 		on
