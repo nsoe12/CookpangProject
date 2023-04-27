@@ -282,7 +282,11 @@ String myTextareaValue = request.getParameter("myTextarea");
 						</li>
 						<li class="sidebar-li">
 							<div class="li-box">
-								<i class="fa-regular fa-user"></i> <a href="#">프로필</a>
+							<i class="fa-regular fa-user"></i>
+									
+										<a
+											href="${pageContext.request.contextPath}/mypage/mypageOk.my">프로필</a>
+
 							</div>
 						</li>
 						<!-- </ul> -->

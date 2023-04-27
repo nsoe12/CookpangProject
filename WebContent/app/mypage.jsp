@@ -27,7 +27,7 @@
 					<div class="main-top">
 						<div class="profile-picture">
 							<c:choose>
-								<c:when test="${empty userProfileImageSystemName}">
+								<c:when test="${empty userInfo.getUserProfileImageSystemName()}">
 									<div id="img-box">
 										<img
 											src="https://www.thechooeok.com/common/img/default_profile.png"
