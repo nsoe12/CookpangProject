@@ -462,6 +462,7 @@ footer {
   height: 220px;
   align-items: center;
   flex-direction: column;
+  font-family: 'AppleSDGothicNeo', 'Noto Sans KR', sans-serif;
 }
 
 footer > div {
@@ -660,6 +661,7 @@ a {
   flex-direction:column;
   padding-top:6px;
   overflow-y: scroll;
+  font-size: 14px;
   
 }
 
@@ -673,6 +675,7 @@ a {
   border-radius: 5px;
   flex-direction:column;
   padding-top:6px;
+  font-size: 14px;
 }
 
 /* .main-page-box {
@@ -695,7 +698,7 @@ a {
 }
 
 .follower-box1 {
-padding-bottom:6px;
+padding:3px;
 border-bottom-style:inset;
 	width: 100%;
   height: 50px;
@@ -929,8 +932,10 @@ a {
 }
 
 .following-box1 {
-  /* background-color: red; */
-  width: 100%;
+ 
+  padding:3px;
+border-bottom-style:inset;
+	width: 100%;
   height: 50px;
   display: flex;
   margin-bottom: 5px;
