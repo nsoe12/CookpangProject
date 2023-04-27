@@ -28,7 +28,7 @@
 		left join tbl_ingredient_image ii ON i.ingredient_number =
 		ii.ingredient_number
 		where o.user_number = #{userNumber}
-		order by order_number
+		order by order_number desc
 		limit #{startRow}, #{rowCount}
 
 	</select>

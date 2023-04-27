@@ -25,10 +25,12 @@
 		select oi.order_item_number , oi.order_number ,
 		oi.ingredient_number , order_item_quantity ,
 		i.ingredient_name ,
-		i.ingredient_price
+		i.ingredient_price, ii.ingredient_image_system_name 
 		from tbl_order_item oi
-		join tbl_ingredient i ON
-		order_number = #{orderNumber} and oi.ingredient_number = i.ingredient_number
+		join tbl_ingredient i on
+		order_number =#{orderNumber}  and oi.ingredient_number = i.ingredient_number
+		left join tbl_ingredient_image ii
+		on i.ingredient_number = ii.ingredient_number
 	</select>
 
 	<select id="getSequnce" resultType="_int">
