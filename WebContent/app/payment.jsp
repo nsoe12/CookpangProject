@@ -24,6 +24,7 @@
 	href="${pageContext.request.contextPath}/assets/css/payment.css">
 <link rel="stylesheet"
 	href="${pageContext.request.contextPath}/assets/js/payment.js">
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-applesdgothicneo@1.0/all.min.css">
 
 <script>
 	window.onload = function() {

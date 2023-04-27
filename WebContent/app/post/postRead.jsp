@@ -84,7 +84,7 @@
 						<div class="writer-profile">
 
 							<!-- 작성자 페이지로 이동 -->
-							<a href="#" class="writer-link"> <!--프로필사진 분기처리 비어있으면 기본 프로필사진으로  -->
+							<a href="/user/youPage.us?userNumber=${post.getUserNumber()}" class="writer-link"> <!--프로필사진 분기처리 비어있으면 기본 프로필사진으로  -->
 								<c:choose>
 									<c:when test="${empty post.getUserProfileImageSystemName()}">
 										<img
@@ -105,9 +105,9 @@
 						<div class="writer-id">
 							<!--작성자의 youpage로 이동  -->
 							<input type="hidden" value="${post.getUserNumber()}"
-								class="post-user-number"> <a href="" class="writer-link">
+								class="post-user-number"> <a href="/user/youPage.us?userNumber=${post.getUserNumber()}" class="writer-link">
 								<!-- 임시 작성자 id -->
-								<h4>${post.getUserId()}</h4>
+								<h4>${post.getUserNickName()}</h4>
 							</a>
 
 

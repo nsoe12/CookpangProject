@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 html, body {
 	overflow-x: hidden;
 }
@@ -7,6 +15,9 @@ html, body {
 * {
 	margin: 0;
 	padding: 0;
+	font-family: 'NanumSquareNeo-Variable';
+    font-weight: normal;
+    font-style: normal;
 }
 
 .write-box-globar-wrap {
@@ -42,6 +53,8 @@ html, body {
 	/* padding-right: 300px; */
 	width: 10%;
 	height: 100%;
+	cursor: unset;
+	
 }
 
 .fa-arrow-left {
@@ -67,7 +80,7 @@ html, body {
 
 .share-button {
 	background-color: white;
-	color: rgb(203 84 0 / 79%);
+	color: rgb(56 56 56 / 76%);
 	border-style: none;
 	font-weight: bolder;
 	font-size: 20px;
@@ -175,11 +188,12 @@ html, body {
 }
 
 .write-box-main-content input {
-	background-color: #fffbf6;
-	border: 1px solid #aeaeae;
-	border-radius: 5px;
-	margin: 3px 0;
-	width: auto;
+    width: auto;
+    font-size: 13px;
+    background-color: white;
+    border: 1px solid #a2a2a2a8;
+    border-radius: 6px;
+    margin: 5px 0;
 }
 
 .content-wrap {
@@ -201,14 +215,15 @@ html, body {
 .category-list {
 	color: rgb(145 88 40 / 79%);
 	background-color: white;
-	border: 2px solid #e57d17a8;
+	border: 0.2px solid #acacac66;
 	border-radius: 9px;
 	text-align: center;
 	/* font-weight: bolder; */
 	margin-right: 7px;
-	padding: 2px;
+	padding: 4px;
 	cursor: pointer;
-	font-weight: bold;
+	font-weight: 500;
+	font-size: 14px;
 }
 
 .categories-wrap {
@@ -363,28 +378,32 @@ textarea {
 .ingredient-wrap .ingredient-name, .ingredient-wrap .ingredient-quantity
 	{
 	padding: 5px;
-	width: 150px;
-	font-size: 16px;
+    width: 150px;
+    font-size: 13px;
+    background-color: white;
+    border: 1px solid #a2a2a2a8;
+    border-radius: 6px;
+    margin: 10px 0px;
 }
 
 .ingredient-wrap #select {
-	padding: 5px;
-	width: 108px;
-	font-size: 16px;
-	background-color: #fffbf6;
-	border: 1px solid #aeaeae;
-	border-radius: 12px;
-	/* margin: 3px 0; */
+	    padding: 5px;
+    width: 108px;
+    font-size: 13px;
+    background-color: white;
+    border: 1px solid #a2a2a2a8;
+    border-radius: 6px;
+    margin: 5px 0;
 }
 
 .select-ingredient {
 	padding: 5px;
 	width: 160px;
-	font-size: 16px;
-	background-color: #fffbf6;
-	border: 1px solid #aeaeae;
+	font-size: 13px;
+	
+	border: 1px solid #a2a2a2a8;
 	border-radius: 9px;
-	margin: 3px 0;
+	margin: 9px 0;
 }
 
 .ingredient-quantity-li {
@@ -425,10 +444,14 @@ textarea {
 }
 
 .fa-regular{
-	color : #c57221d9;
+	color : #eb8828b8;
 }
 
 .file-input-msg{
-	color : #b5671a;
+	color : #eb8828b8;
 }
 
+.category-list:hover{
+	background-color: rgb(255 143 0/ 87%);
+	color: white;
+}

@@ -17,6 +17,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+     font-family: 'locus_sangsang';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/locus_sangsang.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
 
 a {
 	color: black;
@@ -176,7 +182,7 @@ a {
 
 .text-title {
 	font-size: 18px;
-	font-weight: 550;
+	font-family: 'locus_sangsang';
 }
 
 .aaa {
@@ -184,11 +190,12 @@ a {
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
+	color: rgb(255 143 0);	
 }
 
 .bbb {
-	/* margin: 0 11px */
-	
+font-size: 14px;
+    color: rgb(255 143 0);	
 }
 
 .main-body-header {
@@ -226,6 +233,11 @@ a {
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
+}
+.rank-img img:hover{
+	width: 110px;
+    height: 110px;
+    border-radius: 50%;
 }
 
 .rank-round {
@@ -484,7 +496,7 @@ footer>div {
 	width: 530px;
 	height: 100%;
 	position: absolute;
-	top: 25px;
+	top: 0px;
 	left: -312px;
 	border-right: 1px solid #dbdbdb;
 	border-radius: 10px;
@@ -498,7 +510,7 @@ footer>div {
 	width: 530px;
 	height: 100%;
 	position: absolute;
-	top: 25px;
+	top: 0px;
 	left: -312px;
 	border-right: 1px solid #dbdbdb;
 	border-radius: 10px;
@@ -519,6 +531,7 @@ footer>div {
 	font-size: 30px;
 	padding-left: 21px;
 	padding-top: 15px;
+	font-family: 'NanumSquareNeo-Variable';
 }
 
 .search-box {
@@ -532,7 +545,10 @@ footer>div {
 	height: 75px;
 	justify-content: space-around;
 	border-bottom: 1px solid rgb(217, 209, 209);
+    font-family: "GmarketSansMedium";
+    
 }
+
 
 .alarm {
 	/* background-color: beige; */
@@ -560,7 +576,7 @@ footer>div {
 .new-alarm {
 	width: 100%;
 	height: 390px;
-	border-bottom: 1px solid rgb(217, 209, 209);
+	/* border-bottom: 1px solid rgb(217, 209, 209); */
 	display: flex;
     align-items: center;
     justify-content: space-around;
@@ -586,6 +602,7 @@ footer>div {
 	height: 55px;
 	display: flex;
 	align-items: center;
+	font-family: 'NanumSquareNeo-Variable';
 }
 
 .recent-searches2 {
@@ -595,8 +612,9 @@ footer>div {
 .recent-searches-box {
 	/* background-color: yellow; */
 	width: 100%;
-	height: 660px;
+	height: 497px;
 	overflow-y: scroll;
+	font-family: 'NanumSquareNeo-Variable';
 }
 
 .search-man {
@@ -761,6 +779,21 @@ transition: all 0.1s ease;
 	border: none;
 }
 
+.drop-down option{
+	background-color: #ebedf0;
+	border: none;
+   font-family: inherit;
+   border-radius: 12px;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   text-align-last: center;
+   text-align: center;
+   -ms-text-align-last: center;
+   -moz-text-align-last: center;
+   font-size: 12px;
+}
+
 .search-box3 {
 	display: flex;
 	width: 100%;
@@ -769,6 +802,7 @@ transition: all 0.1s ease;
 	align-items: center;
 	justify-content: space-evenly;
 	border-bottom: 1px solid rgb(217, 209, 209);
+	font-family: "GmarketSansMedium";
 }
 
 .find-btn {

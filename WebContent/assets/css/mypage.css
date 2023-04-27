@@ -15,6 +15,7 @@
     font-style: normal;
 }
 
+
 * {
   margin: 0;
   padding: 0;
@@ -110,6 +111,7 @@ a {
   width: 115px;
   display: flex;
   align-items: center;
+  font-size:small;
 }
 
 .profile-btn2 {
@@ -590,6 +592,7 @@ a {
     font-weight: normal;
     font-style: normal;
 }
+
 
 .next-page1 {
   /* background-color: violet; */
@@ -1250,7 +1253,7 @@ a {
   width: 530px;
   height: 100%;
   position: absolute;
-  top: 25px;
+  top: 0px;
   left: -312px;
   border-right: 1px solid #dbdbdb;
   border-radius: 10px;
@@ -1263,7 +1266,7 @@ a {
   width: 530px;
   height: 100%;
   position: absolute;
-  top: 25px;
+  top: 0px;
   left: -312px;
   border-right: 1px solid #dbdbdb;
   border-radius: 10px;
@@ -1321,7 +1324,7 @@ a {
 .new-alarm {
   width: 100%;
   height: 390px;
-  border-bottom: 1px solid rgb(217, 209, 209);
+ /*  border-bottom: 1px solid rgb(217, 209, 209); */
   display: flex;
     align-items: center;
     justify-content: space-around;
@@ -1375,7 +1378,7 @@ a {
 .recent-searches-box {
   /* background-color: yellow; */
   width: 100%;
-  height: 660px;
+  height: 497px;
   overflow-y: scroll;
 }
 

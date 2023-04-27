@@ -81,7 +81,9 @@ function showComment(comments) {
   comments.forEach(comment => {
     text += `
     <li class="read-comment-box">
-      <div class="comment-writer-img-box">`;
+      <div class="comment-writer-img-box">
+		<a href="/user/youPage.us?userNumber=${comment.userNumber}">
+		`;
 
     if (comment.userProfileImageSystemName == null) {
       text += `
@@ -92,9 +94,12 @@ function showComment(comments) {
     }
 
     text += `
+		</a>
       </div>
       <div class="comment-content-box">
-        <div class="comment-writer-id">${comment.userId}</div>
+		<a href="/user/youPage.us?userNumber=${comment.userNumber}">
+	        <div class="comment-writer-id">${comment.userNickname}</div>
+		</a>
         <div class="read-comment-content">
           ${comment.commentContent}
         </div>
