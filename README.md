@@ -36,8 +36,8 @@ ORM : Mybatis
 
 
 
-##bak-end [기능 자세히 보기 WIKI 이동](https://github.com/nsoe12/CookpangProject/wiki/%EA%B2%B0%EC%A0%9C-%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%86%8C%EA%B0%9C)) <br/>
-● 마이 페이지(나의 게시물,팔로우,팔로잉,장바구니)<br/>
+##bak-end<br/>
+● 마이 페이지(나의 게시물,팔로우,팔로잉,장바구니)[자세히 보기 WIKI 이동](https://github.com/nsoe12/CookpangProject/wiki/%EB%A7%88%EC%9D%B4-%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%86%8C%EA%B0%9C))<br/>
 ● 프로필 편집, 비밀번호 변경, 회원 탈퇴 <br/>
 ● you페이지(다른 유저의 게시물,팔로우,팔로잉) <br/>
 
