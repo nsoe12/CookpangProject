@@ -36,10 +36,13 @@ ORM : Mybatis
 
 
 
-마이 페이지 [마이 페이지 WIKI 이동](https://github.com/nsoe12/monthly/wiki/1.%ED%8C%90%EB%A7%A4%EC%9E%90-%ED%8E%98%EC%9D%B4%EC%A7%80(%EA%B4%80%EB%A6%AC%EC%9E%90)) <br/>
-● 관리자 로그인 <br/>
-● 회원관리, 구독자 관리, 모든 제품관리, 매출 관리, 판매자 관리<br/>
-● 구독 문자 알림 서비스
-##### ●판매자 등록, 회원 증가 ,매출 현황차트
+##bak 기능 구현 [기능 자세히 보기 WIKI 이동](https://github.com/nsoe12/CookpangProject/wiki/%EA%B2%B0%EC%A0%9C-%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%86%8C%EA%B0%9C)) <br/>
+● 마이 페이지(나의 게시물,팔로우,팔로잉,장바구니)<br/>
+● 프로필 편집, 비밀번호 변경, 회원 탈퇴 <br/>
+● you페이지(다른 유저의 게시물,팔로우,팔로잉) <br/>
 
+###front 구현
+● 장바구니 모듈 <br/>
+● 구매 페이지<br/>
+● 결제 페이지<br/>
 
