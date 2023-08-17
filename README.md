@@ -36,7 +36,7 @@ ORM : Mybatis
 ● 프로필 편집, 비밀번호 변경, 회원 탈퇴 <br/>
 ● you페이지(다른 유저의 게시물,팔로우,팔로잉) <br/>
 
-###front-end<br/>
+###front-end 👋[디자인 구경 WIKI 이동](https://github.com/nsoe12/CookpangProject/wiki/%F0%9F%91%8FMy-front%E2%80%90end-%EC%86%8C%EA%B0%9C)<br/>
 ● 장바구니 모듈 <br/>
 ● 구매 페이지<br/>
 ● 결제 페이지<br/>
